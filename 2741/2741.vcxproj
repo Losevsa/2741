@@ -140,7 +140,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Branch.cpp" />
-    <ClCompile Include="Elf.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Tree.cpp" />
     <ClCompile Include="Village.cpp" />
@@ -150,7 +149,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Branch.h" />
-    <ClInclude Include="Elf.h" />
     <ClInclude Include="Tree.h" />
     <ClInclude Include="Village.h" />
   </ItemGroup>

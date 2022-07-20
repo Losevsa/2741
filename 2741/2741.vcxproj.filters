@@ -27,9 +27,6 @@
     <ClCompile Include="Branch.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Elf.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
@@ -42,9 +39,6 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Branch.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Elf.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
