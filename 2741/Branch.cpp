@@ -12,6 +12,7 @@ Branch::Branch(class Tree* tree,int index, int midBranchCount)
 }
 Branch::Branch(class Branch* bran, int index)
 {
+	address = index;
 	//setElfName(index);
 }
 
@@ -35,8 +36,14 @@ std::string Branch::getElfName(int index)
 	return name;
 }
 
-void Branch::setElfName(int index)
+void Branch::setElfName(int index, int address)
 {
 	std::cout << "Enter Elf name: ";
 	std::cin >> name;
+	this->address = address;
+}
+
+Branch* Branch::getMidBranch(int index)
+{
+	return branch[index];
 }
